@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: black;
+    color: white;
+}
+
+#navbar i:nth-child(1) {
+    font-size: 25px;
+}
+
+#navbar div {
+    display: flex;
+    gap: 140px;
+    align-items: center;
+}
+
+#navbar div a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar div a:nth-child(4) {
+    padding: 10px 30px;
+    background-color: white;
+    height: fit-content;
+    color: black;
+    border-radius: 10px;
+}
+
+.content {
+    height: calc(100% - 70px);
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+}
+
+.content .right {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.content .right h1 {
+    font-size: 80px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.content .right h1 span {
+    color: #AFA0FE;
+}
+
+.content .right p {
+    color: rgb(160, 158, 158);
+    padding-bottom: 40px;
+}
+
+.content .right div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.content .right div p:nth-child(2) {
+    color: black;
+    padding: 0;
+}
+
+.content .right div p:nth-child(1) {
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.899);
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.content .left {
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQGqfJgv2F2WPw/article-cover_image-shrink_600_2000/0/1655111790603?e=2147483647&v=beta&t=W_TFzW2lBJnrlAv3X-GGIc7aVx4pKkg9CEm85RpI6xw);
+    background-size: cover;
+    background-position: 25% 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 20px 0 0;
+}
+
+.left i {
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
